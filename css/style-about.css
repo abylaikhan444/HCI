@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #111;
+    color: white;
+    line-height: 1.8;
+    overflow-x: hidden;
+}
+
+/* header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #000;
+}
+
+header h1 {
+    color: #ffa500;
+    font-size: 1.5rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+header a {
+    text-decoration: none;
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffa500;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #ffa500;
+    color: rgb(255, 252, 252);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.cta-button:hover {
+    background-color: #e69500;
+    color: #000;
+}
+
+/* section */
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    gap: 30px;
+}
+
+.text-content {
+    max-width: 50%;
+}
+
+.text-content h1 {
+    font-size: 2.5rem;
+    margin: 0 0 20px;
+    color: #fff;
+}
+
+.text-content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #aaa;
+}
+
+.text-content button {
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image-content img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Раздел Why work with us */
+
+.cards-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.cards-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    text-align: left;
+}
+
+.card span {
+    display: inline-block;
+    background-color: #6c5ce7;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #aaa;
+    line-height: 1.5;
+}
+
+.card.green span {
+    background-color: #27ae60;
+}
+
+.card.orange span {
+    background-color: #e67e22;
+}
+
+
+/* subscribe */
+
+.subscribe {
+    padding: 50px 20px;
+    background-color: #111;
+    text-align: center;
+}
+
+.subscribe h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.subscribe p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+.subscribe-container {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-box {
+    background-color: #222;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.subscribe-box h4 {
+    color: #ffa500;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.subscribe-box p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.subscribe-box form {
+    display: flex;
+    gap: 10px;
+}
+
+.subscribe-box input[type="email"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.subscribe-box button {
+    padding: 10px 20px;
+    background-color: #ffa500;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.subscribe-box button:hover {
+    background-color: #e69500;
+}
+
+/* Footer */
+
+footer {
+    background-color: #000;
+    color: white;
+    padding: 30px 20px;
+    font-size: 0.9rem;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.footer-section {
+    flex: 1 1 300px;
+    margin-bottom: 20px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+    color: #ffa500;
+}
+
+.footer-section p,
+.footer-section ul {
+    color: #ccc;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #ccc;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #ffa500;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #222;
+    padding-top: 10px;
+    color: #aaa;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #4267B2;
+    font-size: 24px;
+}
+
+.social-links a:hover {
+    color: #365899;
+}
